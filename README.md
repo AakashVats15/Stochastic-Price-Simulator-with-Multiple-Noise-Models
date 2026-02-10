@@ -20,6 +20,25 @@ The goal of this project is to provide a research‑grade, modular, and extensib
 # Stochastic-Price-Simulator-with-Multiple-Noise-Models
 *A modular simulation engine for generating synthetic financial price series using multiple stochastic processes.*
 
+This repository implements a stochastic price simulation framework used to study financial time‑series behavior under different noise and diffusion assumptions.
+It includes:
+
+Geometric Brownian Motion (GBM) for log‑normal price evolution
+
+Ornstein–Uhlenbeck (OU) for mean‑reverting dynamics
+
+Merton Jump Diffusion for sudden price shocks
+
+Student‑t Noise Model for fat‑tailed return distributions
+
+Visualization utilities for price paths and return histograms
+
+A clean, extensible project structure
+
+A full Wiki with mathematical derivations and usage examples
+
+The goal of this project is to provide a research‑grade, modular, and extensible foundation for exploring stochastic processes in quantitative finance — bridging theory, simulation, and visualization in a single, well‑structured codebase.
+
 ---
 
 ## 📈 Overview
